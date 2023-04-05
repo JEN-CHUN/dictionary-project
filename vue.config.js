@@ -3,5 +3,10 @@
 //   transpileDependencies: true
 // })
 module.exports = {
-  publicPath: "/dictionary-project/",
+  publicPath: "./",
 };
+// module.exports = {
+//   publicPath: process.env.NODE_ENV === 'production'
+//     ? ''
+//     : ''
+// }
